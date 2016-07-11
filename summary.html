@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	    <title>Score Card</title>
+		
+		<script src="common.js"></script>
+		
+	</head>
+
+	<body  onload="scoreFunction()">
+		<div id="question" class="container">
+			<header>
+				<h2>
+					Score Card
+				</h2>
+			</header>
+			
+			<div class="wrapper">			
+				<section class="summary-section">
+					<details>
+					  <summary>Quantitative Section</summary>
+					  <p>Number of Questions Answered : <span id="quant_count"></span></p>
+					  <p>Number of Correct Answers : <span id="quant_correct"></span></p>
+					  <p>Score : <span id="quant_score"></span></p>
+					</details>
+					
+					<details>
+					  <summary>Reading Section</summary>
+					  <p>Number of Questions Answered : <span id="verbal_count"></span></p>
+					  <p>Number of Correct Answers : <span id="verbal_correct"></span></p>
+					  <p>Score : <span id="verbal_score"></span></p>
+					</details>
+					
+					<details>
+					  <summary>Audio/Video Section</summary>
+					  <p>Number of Questions Answered : <span id="video_count"></span></p>
+					  <p>Number of Correct Answers : <span id="video_correct"></span></p>
+					  <p>Score : <span id="video_score"></span></p>
+					</details>
+
+				</section>
+			</div>
+			<button type="button" name="submit" onclick="finish()">Finish</button>
+			<footer id="score-footer">
+				
+					<h1> Thank You!!</h1>
+					<div style="height: 7%;width: 100%;background-color: lightblue;position:fixed;bottom:0px;
+						display:inline;text-align:center;padding-top:5px;padding-bottom:5px">
+			<h2 align="center">Akanksha Jain</h2></div>	
+				
+			</footer>
+		</div>
+	</body>
+</html>

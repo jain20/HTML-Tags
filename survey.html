@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Survey</title>
+		<script src="common.js"></script>
+	</head>
+
+	<body>
+		<div id="question" class="container">
+			<header>
+				<h2>
+					Survey
+				</h2>
+			</header>
+			
+			<div class="wrapper">			
+				<section>
+					<form class="form-2" method="post">
+						<fieldset>
+								
+								How do you like the center ?
+								<br>
+								<br>
+								Comments: <textarea name="comments" rows="4" cols="50" maxlength="250">
+    							</textarea>
+								<br><br><br><br>
+								<label>
+									Select Test Area Location :
+								</label>
+								<br/><br/>
+								
+							
+									
+									
+										<label>City :</label>
+										
+										<datalist id="cities">
+										<select>
+											<option value="San Jose">San Jose</option>								
+											<option value="San Francisco">San Francisco</option>					<<<option value="Mountain View">Mountain view</option>						<option value="Palo Alto">Palo Alto</option>							
+											<option value="Cupertino">Cupertino</option>	
+											</select>							
+										</datalist>
+									
+									&nbsp;&nbsp;&nbsp;
+
+
+									
+									
+										<label>Room Number :</label>
+										
+										<datalist id="rooms">
+										<select>
+											<option value="210">210</option>								
+											<option value="110">110</option>								
+											<option value="410">410</option>								
+											<option value="337">337</option>								
+											<option value="180">180</option>
+											</select>								
+										</datalist>
+									
+								
+								<br><br><br><br>
+								<button type="button" name="submit" onclick="getScore()">Submit & Get Score</button>
+				
+					<button type="button" name="reset" onclick="getScore()">Skip & Get Score</button>
+						</fieldset>
+					</form>
+				</section>
+			</div>
+			
+			<footer>
+			<div style="height: 7%;width: 100%;background-color: lightblue;position:fixed;bottom:0px;
+						display:inline;text-align:center;padding-top:5px;padding-bottom:5px">
+			<h2 align="center">Akanksha Jain</h2></div>		
+				
+				
+			</footer>
+		</div>
+	</body>
+</html>
